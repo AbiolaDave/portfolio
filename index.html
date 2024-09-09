@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.js" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1cfa2b3d70.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      id="nav-bar"
+      style="background-color: black"
+    >
+      <div class="container-fluid mx-5">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+         <div class="d-flex dave">
+           <img
+            class="nav-img mx-5 navs-image"
+            height="50px"
+            width="50px"
+            src="./assets/IMG_2289.JPG"
+            alt=""
+          />
+          <h5 class="text-light fw-bold dav">DAVE</h5>
+         </div>
+          </a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item navitem mx-5">
+              <a
+                class="nav-link navitem text-light scrollto active"
+                aria-current="page"
+                id="navitem-1"
+                href="#hero"
+                >Home
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-light scrollto"
+                aria-current="page"
+                id="navitem-2"
+                href="#about"
+                >About
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-light scrollto"
+                id="navitem-3"
+                aria-current="page"
+                href="#experience"
+                >Experience
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-light scrollto"
+                aria-current="page"
+                id="navitem-4"
+                href="#education"
+                >Education
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-light scrollto"
+                aria-current="page"
+                id="navitem-5"
+                href="#blogs"
+                >Blog
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link text-light scrollto"
+                aria-current="page"
+                id="navitem-6"
+                href="#interest"
+                >Interest
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link scrollto text-light"
+                aria-current="page"
+                id="navitem-7"
+                href="#contact"
+                >Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="min-vh-100 hero d-flex justify-content-center align-items-center"
+      id="hero"
+    >
+      <div id="hero" class="container my-con text-center text-light">
+        <img class="my-img" src="./assets/my-img.png" alt="" />
+        <h1 class="mt-5">Abiola David Odesomi</h1>
+        <p>Fullstack Web Developer</p>
+
+        <div>
+          <a href="https://web.facebook.com/abiola.dave.7">
+            <i class="fa-brands fa-facebook fa-2xl" style="color: white"></i>
+          </a>
+          <a href="https://x.com/DaveAbiola">
+            <i
+              class="fa-brands fa-square-x-twitter fa-2xl mx-3"
+              style="color: white"
+            ></i>
+          </a>
+          <a href="https://www.linkedin.com/in/abiola-odesomi/">
+            <i
+              class="fa-brands fa-linkedin fa-2xl mx-3"
+              style="color: white"
+            ></i>
+          </a>
+          <a href="https://github.com/AbiolaDave">
+            <i class="fa-brands fa-github fa-2xl mx-3" style="color: white"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+    <section
+      class="min-vh-150 d-flex justify-content-center align-items-center mt-5 mb-5 about-sec"
+      id="about"
+    >
+      <div class="about d-flex mt-5 mb-5">
+        <div>
+          <div class="me-details">
+            <img src="./assets/me.png" alt="" />
+            <div class="name mx-5 mt-5">
+              <p>Name: <span>Abiola Odesomi</span></p>
+              <p>Profile: <span>full stack developer</span></p>
+              <p>Email: <span>abioladave24@gmail.com</span></p>
+              <p>Phone: <span>08147374534</span></p>
+              <p>LinkedIn: <span>www.linkedin.com/in/abiola-odesomi </span></p>
+              <p>GitHub: <span>www.github.com/abioladave</span></p>
+            </div>
+          </div>
+          <div class="skill">
+            <h4>Skill</h4>
+            <p>Html 85%</p>
+            <div class="rating">
+              <div class="rating-bar"></div>
+            </div>
+            <p class="mt-3">Css 75%</p>
+            <div class="rating">
+              <div class="rating-bar-2"></div>
+            </div>
+            <p class="mt-3">Javascript 90%</p>
+            <div class="rating">
+              <div class="rating-bar-3"></div>
+            </div>
+            <p class="mt-3">React 85%</p>
+            <div class="rating">
+              <div class="rating-bar-4"></div>
+            </div>
+            <p class="mt-3">Express.js 70%</p>
+            <div class="rating">
+              <div class="rating-bar-5"></div>
+            </div>
+            <p class="mt-3">Node.js 75%</p>
+            <div class="rating">
+              <div class="rating-bar-6"></div>
+            </div>
+            <p class="mt-3">MongoDB 75%</p>
+            <div class="rating mb-5">
+              <div class="rating-bar-7"></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-me">
+          <h2>About me</h2>
+          <p>
+            I’m a computer science student at the Federal University of
+            Agriculture, Abeokuta(Funaab). I’m a problem solver, hardworking and
+            passionate about improving myself and my skill sets.
+            <br />
+            <br />
+            I interned at SQI College of ICT where I was able to get valuable
+            hands-on experience and greatly improve my skill set.
+            <br />
+            <br />
+            As a full-stack developer, I enjoy building scalable and functional
+            websites, utilizing my skill sets which includes proficiency in
+            Html/Css, JavaScript, React.JS, MongoDB, Firebase, Express.JS and
+            Node.JS.
+            <br />
+            <br />
+            I’m a team player and I love collaborating with others on projects.
+            I’m also very open to constructive criticism, as I’m always striving
+            to improve myself and be better than I was yesterday.
+            <br />
+            I’m fun loving and bring a lot of passion and excitement with me.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="min-vh-150 d-flex justify-content-center align-items-center mb-5"
+      id="experience"
+    >
+      <div class="experience mt-5 mb-5">
+        <div class="container text-center mt-5 fw-bold">
+          <h3 class="exp fw-bold">Experience</h3>
+        </div>
+        <div class="intern text-center mt-5">
+          <h5 class="fw-bold" style="color: orangered">
+            INTERNSHIP, <span style="color: lawngreen">SQI COLLEGE OF ICT</span>
+          </h5>
+          <p style="color: orangered">AUGUST 7, 2023 – JANUARY 8, 2024</p>
+        </div>
+        <div class="container text-center intern-det">
+          <p>
+            I assisted in the development and testing of web applications using
+            HTML, CSS, JavaScript, React.js, and Node.js. Gained experience in
+            code reviews and version control using Git and GitHub. • Developed a
+            responsive landing page using HTML, CSS, JavaScript, and React. •
+            Created RESTful API using Node.js and Express.js • Assisted in
+            debugging and testing web applications, resulting in faster
+            delivery. • Learned to effectively communicate with team members
+            through collaborative development processes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="edu">
+        <div class="container edu-2 text-light text-center"></div>
+        <div class="edy container text-center">
+          <h2 class="fw-bold">Education</h2>
+          <h2 class="mt-5">FEDERAL UNIVERSITY OF AGRICULTURE, ABEOKUTA.</h2>
+          <h2>B.SC COMPUTER SCIENCE</h2>
+          <p>DECEMBER 2019 – AUGUST 2024</p>
+        </div>
+        <div class="container text-center text-light edu-det">
+          <p class="edu-det-1">
+            As a Computer Science student, I get to know more about the
+            intricacies of software engineering, web development, standard for
+            software production to meet organizational needs and client
+            satisfaction, importance of documentation and architectural designs
+            using mvc-models. I am currently a Second Class Upper Student.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <div class="my-blog text-center">
+        <h2 class="fw-bold">Projects</h2>
+      </div>
+      <div class="blog-grid">
+        <div class="box0">
+          <img src="./assets/Screenshot (221).png" alt="" />
+          <div class="tag">EventTrackPro</div>
+          <div class="lay">
+            <h5 class="">App for Collating Headcount</h5>
+            <p>
+              This is an app for collating headcount in an event. The app uses
+              QR-Code to authenticate counters and count-coordinator
+            </p>
+          </div>
+          <hr />
+          <div class="author d-flex">
+            <img src="./assets/IMG_2289.JPG" alt="" />
+            <p>Abiola Odesomi</p>
+          </div>
+        </div>
+        <div class="box0">
+          <img src="./assets/Screenshot (230).png" alt="" />
+          <div class="tag p-2">SmartTrack</div>
+          <div class="lay">
+            <h5>App for marking attendance using Qr-Code</h5>
+            <p>Students mark attendance by scanning Qr-code in this app</p>
+          </div>
+          <hr />
+          <div class="author d-flex">
+            <img src="./assets/IMG_2289.JPG" alt="" />
+            <p>Abiola Odesomi</p>
+          </div>
+        </div>
+        <div class="box0">
+          <img src="./assets/Screenshot (237).png" alt="" />
+          <div class="tag">Piggyvest</div>
+          <div class="lay">
+            <h5>Piggyvest Clone</h5>
+            <p>
+              This is a clone of piggyvest website done as project during my
+              internship at SQI using Html, Css, and Vanilla JavaScript
+            </p>
+          </div>
+          <hr />
+          <div class="author d-flex">
+            <img src="./assets/IMG_2289.JPG" alt="" />
+            <p>Abiola Odesomi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="interest" id="interest">
+      <div class="my-interest d-flex">
+        <img src="./assets/IMG_2289.JPG" alt="" />
+        <div class="my-my">
+          <h2 class="fw-bold">Interest</h2>
+          <div>
+            <div class="d-flex footy">
+              <div>
+                <h3>Football</h3>
+                <div class="circular-rating">
+                  <div class="circle">
+                    <div class="mask full">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                      <div class="fill"></div>
+                      <div class="fill fix"></div>
+                    </div>
+                    <div class="inside-circle">95%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="footy-1">
+                <h3>Reading</h3>
+                <div class="circular-rating">
+                  <div class="circle-1">
+                    <div class="mask full">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                      <div class="fill"></div>
+                      <div class="fill fix"></div>
+                    </div>
+                    <div class="inside-circle">85%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex footy">
+              <div>
+                <h3>Music</h3>
+                <div class="circular-rating">
+                  <div class="circle-2">
+                    <div class="mask full">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                      <div class="fill"></div>
+                      <div class="fill fix"></div>
+                    </div>
+                    <div class="inside-circle">75%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="footy-1">
+                <h3>Coding</h3>
+                <div class="circular-rating">
+                  <div class="circle-3">
+                    <div class="mask full">
+                      <div class="fill"></div>
+                    </div>
+                    <div class="mask half">
+                      <div class="fill"></div>
+                      <div class="fill fix"></div>
+                    </div>
+                    <div class="inside-circle">90%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- </div> -->
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-me d-flex">
+        <img src="./assets/NWNNE4331-removebg-preview(1).png" alt="" />
+        <div class="hire">
+          <h2>Hire Me!</h2>
+          <div class="hire-1">
+            <input id="name" class="input-1" placeholder="Name*" type="text" />
+            <input
+              id="email"
+              class="input-2"
+              placeholder="Email*"
+              type="email"
+            />
+            <input
+              id="subject"
+              class="input-3"
+              placeholder="Subject*"
+              type="text"
+            />
+            <textarea
+              id="message"
+              name="Message"
+              placeholder="Message"
+              class="input-4"
+              id=""
+            ></textarea>
+            <div>
+              <button
+                class="mt-3 btn text-light p-2"
+                style="background-color: orangered"
+                onclick="sendMail()"
+              >
+                Send Mail
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot text-center p-1">
+        <p class="my-2">© Copyright Dave. All Rights Reserved</p>
+        <p class="des">Designed by BootstrapMade</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1057 @@
+.nav-img {
+  border-radius: 50%;
+}
+.hero {
+  background: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./assets/IMG_2289.JPG");
+  background-size: cover;
+}
+.my-img {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  opacity: 1;
+}
+@font-face {
+  font-family: emirates;
+  src: url(./assets/Emirates-Bold.ttf);
+}
+.my-con {
+  font-family: emirates;
+}
+.about {
+  width: 1200px;
+  height: 850px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+  font-family: emirates;
+}
+.about img {
+  border: 1px solid;
+  border-radius: 10px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.name {
+  font-family: emirates;
+}
+.about-me {
+  font-family: emirates;
+  margin-top: 50px;
+  max-width: 500px;
+  margin-left: 150px;
+}
+.me-details {
+  display: flex;
+  flex-direction: row;
+}
+.about-me p {
+  line-height: 30px;
+}
+.skill {
+  font-family: emirates;
+  margin-left: 50px;
+}
+.rating {
+  width: 100%;
+  height: 10px;
+  background-color: lightblue;
+}
+.rating-bar {
+  height: 100%;
+  width: 85%;
+  background-color: blue;
+}
+.rating-bar-2 {
+  height: 100%;
+  width: 75%;
+  background-color: blue;
+}
+.rating-bar-3 {
+  height: 100%;
+  width: 90%;
+  background-color: blue;
+}
+.rating-bar-4 {
+  height: 100%;
+  width: 85%;
+  background-color: blue;
+}
+.rating-bar-5 {
+  height: 100%;
+  width: 70%;
+  background-color: blue;
+}
+.rating-bar-6 {
+  height: 100%;
+  width: 75%;
+  background-color: blue;
+}
+.rating-bar-7 {
+  height: 100%;
+  width: 75%;
+  background-color: blue;
+}
+.experience {
+  width: 1200px;
+  height: 500px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+  font-family: emirates;
+  /* color: #4caf50; */
+}
+.experience h3 {
+  color: orangered;
+}
+.intern-det {
+  position: relative;
+  display: flex;
+  max-width: 700px !important;
+  line-height: 40px;
+}
+.education #body {
+  background: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("./assets/IMG_2289.JPG");
+  background-size: cover;
+}
+.education {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("./assets/IMG_2289.JPG");
+  /* background-image: url(./assets/IMG_2289.JPG); */
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  font-family: emirates;
+}
+.edu {
+  background: rgb(8, 18, 210, 0.7);
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.5; */
+}
+.edu-2 {
+  position: relative;
+  color: white;
+}
+.edy {
+  padding-top: 100px;
+  color: white;
+}
+.edu-det {
+  color: white;
+  margin-top: 70px;
+}
+.edu-det-1 {
+  max-width: 650px;
+  margin-left: 200px;
+  line-height: 40px;
+}
+.blogs {
+  height: 700px;
+  font-family: emirates;
+}
+.my-blog {
+  color: #4caf50;
+  margin-top: 100px;
+}
+.blog-grid {
+  display: grid;
+  padding: 5rem;
+  gap: 2rem;
+  position: relative;
+  top: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 400px);
+  font-family: emirates;
+}
+.box0 {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  overflow: hidden;
+}
+.box0 img {
+  position: relative;
+  width: 400px;
+  height: 50%;
+  position: relative;
+  background-size: cover;
+  object-fit: fill;
+}
+.box0 h5 {
+  color: #4caf50;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.box0 p {
+  margin-left: 10px;
+  max-width: 400px;
+  /* font-size: 17px; */
+  /* font-weight: 700; */
+}
+.tag {
+  position: absolute;
+  display: flex;
+  padding: 10px;
+  height: 30px;
+  border: 1px solid #4caf50;
+  background-color: #4caf50;
+  border-radius: 3px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: -15px;
+}
+.author img {
+  position: relative;
+  border-radius: 50%;
+  width: 50px;
+  height: 30px;
+  background-size: cover;
+  object-fit: fill;
+  margin-left: 20px;
+  margin-top: -8px;
+}
+.author p {
+  position: relative;
+  margin-left: 10px;
+  margin-top: -8px;
+}
+.interest {
+  height: 700px;
+  background-color: lightgray;
+  font-family: emirates;
+  display: flex;
+  flex-direction: column;
+}
+.my-interest {
+  display: flex;
+}
+.my-interest img {
+  height: 700px;
+  width: 500px;
+}
+.my-interest h2 {
+  display: flex;
+  color: #4caf50;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.my-my {
+  display: flex;
+  flex-direction: column;
+}
+.footy {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-left: 150px;
+  margin-top: 100px;
+  color: #4caf50;
+}
+.footy-1 {
+  margin-left: 200px;
+}
+.circular-rating {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+    #4caf50 0%,
+    #4caf50 95%,
+    /* This 85% represents the rating percentage */ #ccc 0%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside-circle {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #4caf50;
+  position: absolute;
+}
+.circle-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 0%, #4caf50 85%, #ccc 0%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 0%, #4caf50 75%, #ccc 0%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 0%, #4caf50 90%, #ccc 0%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  margin-top: 50px;
+  font-family: emirates;
+  background-color: lightgray;
+}
+.contact-me img {
+  width: 500px;
+  height: 600px;
+  object-fit: fill;
+  background-size: cover;
+}
+.hire {
+  display: flex;
+  flex-direction: column;
+  color: orangered;
+}
+.hire h2 {
+  color: orangered;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.hire-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: orangered;
+}
+.input-1 {
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  color: orangered;
+  border: 1px solid orangered;
+}
+.input-2 {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: orangered;
+  border: 1px solid orangered;
+}
+.input-3 {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: orangered;
+  border: 1px solid orangered;
+}
+.input-4 {
+  width: 400px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 3px;
+  color: orangered;
+  border: 1px solid orangered;
+}
+.foot {
+  position: relative;
+  color: white;
+  background-color: orangered;
+  font-family: emirates;
+}
+.des {
+  margin-top: -10px;
+}
+#nav-bar {
+  transition: background-color 0.8s;
+}
+
+@media only screen and (max-width: 999px) {
+  .about {
+    width: 900px;
+    height: 850px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-family: emirates;
+  }
+  .about img {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .name {
+    font-family: emirates;
+  }
+  .about-me {
+    font-family: emirates;
+    margin-top: 50px;
+    max-width: 350px !important;
+    min-width: 350px !important;
+    margin-left: -20px !important;
+  }
+  .me-details {
+    display: flex;
+    flex-direction: row;
+  }
+  .me-details p {
+    margin-left: -20px;
+    line-height: 30px !important;
+  }
+  .about-me p {
+    line-height: 30px;
+  }
+  .skill {
+    font-family: emirates;
+    margin-left: 50px;
+    width: 300px !important;
+  }
+
+  .experience {
+    width: 900px;
+    height: 500px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-family: emirates;
+    /* color: #4caf50; */
+  }
+
+  .education #body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("./assets/IMG_2289.JPG");
+    background-size: cover;
+  }
+  .education {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("./assets/IMG_2289.JPG");
+    /* background-image: url(./assets/IMG_2289.JPG); */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    font-family: emirates;
+  }
+  .edu {
+    background: rgb(8, 18, 210, 0.7);
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+  }
+  .edu-2 {
+    position: relative;
+    color: white;
+  }
+  .edy {
+    padding-top: 100px;
+    color: white;
+  }
+  .edu-det {
+    color: white;
+    margin-top: 70px;
+  }
+  .edu-det-1 {
+    max-width: 650px;
+    margin-left: 50px;
+    line-height: 40px;
+    margin-top: -50px;
+  }
+  .blogs {
+    height: 700px;
+    font-family: emirates;
+  }
+  .my-blog {
+    color: #4caf50;
+    margin-top: 100px;
+  }
+  .blog-grid {
+    display: grid;
+    padding: 3rem;
+    gap: 2rem;
+    position: relative;
+    top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 450px);
+    font-family: emirates;
+  }
+  .box0 {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    overflow: hidden;
+  }
+  .box0 img {
+    position: relative;
+    width: 400px;
+    height: 50%;
+    position: relative;
+    background-size: cover;
+    object-fit: fill;
+  }
+  .box0 h5 {
+    color: #4caf50;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .box0 p {
+    margin-left: 10px;
+    max-width: 400px;
+  }
+  .lay {
+    height: 30% !important;
+  }
+  .tag {
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #4caf50;
+    background-color: #4caf50;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: -15px;
+  }
+  .author img {
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    background-size: cover;
+    object-fit: fill;
+    margin-left: 20px;
+    margin-top: -8px;
+  }
+  .author {
+    height: 20%;
+  }
+  .author p {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -8px;
+  }
+  .interest {
+    height: 700px;
+    background-color: lightgray;
+    font-family: emirates;
+    display: flex;
+    flex-direction: column;
+  }
+  .my-interest {
+    display: flex;
+  }
+  .my-interest img {
+    height: 700px;
+    width: 40%;
+    object-fit: fill;
+    background-size: cover;
+  }
+  .my-interest h2 {
+    display: flex;
+    color: #4caf50;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  .my-my {
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+  }
+  .footy {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: #4caf50;
+  }
+  .footy-1 {
+    margin-left: 100px;
+  }
+  .contact {
+    margin-top: 50px;
+    font-family: emirates;
+    background-color: lightgray;
+  }
+  .contact-me img {
+    width: 40%;
+    height: 600px;
+    object-fit: fill;
+    background-size: cover;
+  }
+  .hire {
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    margin-left: -50px;
+  }
+  .hire h2 {
+    color: orangered;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  .hire-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: orangered;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .dave {
+    margin-left: -80px !important;
+  }
+  .dav {
+    margin-left: -30px;
+    margin-top: 10px;
+  }
+
+  .about {
+    width: 90%;
+    height: 1700px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-family: emirates;
+  }
+  .about img {
+    border: 1px solid;
+    border-radius: 10px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .name {
+    font-family: emirates;
+  }
+  .about {
+    display: block !important;
+  }
+  .about-me {
+    display: block;
+    font-family: emirates;
+    margin-top: 450px;
+    max-width: 330px !important;
+    min-width: 300px !important;
+    margin-left: -320px !important;
+  }
+  .me-details {
+    display: flex;
+    flex-direction: row;
+    width: 90% !important;
+    max-width: 200px !important;
+  }
+  .about-me p {
+    line-height: 30px;
+  }
+  .skill {
+    font-family: emirates;
+    margin-left: 50px;
+    margin-top: 750px;
+  }
+  .rating {
+    width: 100%;
+    height: 10px;
+    background-color: lightblue;
+  }
+  .rating-bar {
+    height: 100%;
+    width: 85%;
+    background-color: blue;
+  }
+  .rating-bar-2 {
+    height: 100%;
+    width: 75%;
+    background-color: blue;
+  }
+  .rating-bar-3 {
+    height: 100%;
+    width: 90%;
+    background-color: blue;
+  }
+  .rating-bar-4 {
+    height: 100%;
+    width: 85%;
+    background-color: blue;
+  }
+  .rating-bar-5 {
+    height: 100%;
+    width: 70%;
+    background-color: blue;
+  }
+  .rating-bar-6 {
+    height: 100%;
+    width: 75%;
+    background-color: blue;
+  }
+  .rating-bar-7 {
+    height: 100%;
+    width: 75%;
+    background-color: blue;
+  }
+  .experience {
+    width: 90%;
+    height: 700px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-family: emirates;
+    /* color: #4caf50; */
+  }
+  .experience h3 {
+    color: orangered;
+  }
+  .intern-det {
+    position: relative;
+    display: flex;
+    max-width: 700px !important;
+    line-height: 40px;
+  }
+  .education #body {
+    background: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("./assets/IMG_2289.JPG");
+    background-size: cover;
+  }
+  .education {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("./assets/IMG_2289.JPG");
+    /* background-image: url(./assets/IMG_2289.JPG); */
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    font-family: emirates;
+  }
+  .edu {
+    background: rgb(8, 18, 210, 0.7);
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.5; */
+  }
+  .edu-2 {
+    position: relative;
+    color: white;
+  }
+  .edy {
+    padding-top: 100px;
+    color: white;
+  }
+  .edu-det {
+    color: white;
+    margin-top: 70px;
+  }
+  .edu-det-1 {
+    max-width: 350px !important;
+    margin-left: 30px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .blogs {
+    height: 1000px !important;
+    font-family: emirates;
+  }
+  .my-blog {
+    color: #4caf50;
+    margin-top: 50px !important;
+  }
+  .blog-grid {
+    display: grid;
+    padding: 5rem;
+    gap: 2rem;
+    position: relative;
+    top: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 470px);
+    font-family: emirates;
+  }
+  .box0 {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    overflow: hidden;
+  }
+  .box0 img {
+    position: relative;
+    width: 400px;
+    height: 50%;
+    position: relative;
+    background-size: cover;
+    object-fit: fill;
+  }
+  .box0 h5 {
+    color: #4caf50;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .box0 p {
+    margin-left: 10px;
+    max-width: 400px;
+    /* font-size: 17px; */
+    /* font-weight: 700; */
+  }
+  .tag {
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid #4caf50;
+    background-color: #4caf50;
+    border-radius: 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: -15px;
+  }
+  .author img {
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    background-size: cover;
+    object-fit: fill;
+    margin-left: 20px;
+    margin-top: -8px;
+  }
+  .author p {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -8px;
+  }
+  .interest {
+    margin-top: 700px !important;
+    height: 600px;
+    background-color: lightgray;
+    font-family: emirates;
+    display: flex;
+    flex-direction: column;
+  }
+  .my-interest {
+    display: flex;
+  }
+  .my-interest img {
+    height: 600px;
+    width: 30% !important;
+    object-fit: fill;
+    background-size: cover;
+  }
+  .my-interest h2 {
+    display: flex;
+    color: #4caf50;
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+  .my-my {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .footy {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 120px;
+    margin-top: 100px;
+    color: #4caf50;
+  }
+  .footy-1 {
+    margin-left: 50px;
+  }
+  .circular-rating {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(
+      #4caf50 0%,
+      #4caf50 95%,
+      /* This 85% represents the rating percentage */ #ccc 0%
+    );
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inside-circle {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4caf50;
+    position: absolute;
+  }
+  .circle-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 0%, #4caf50 85%, #ccc 0%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 0%, #4caf50 75%, #ccc 0%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 0%, #4caf50 90%, #ccc 0%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact {
+    margin-top: 50px;
+    font-family: emirates;
+    background-color: lightgray;
+  }
+  .contact-me img {
+    width: 30%;
+    height: 600px;
+    object-fit: fill;
+    background-size: cover;
+  }
+  .hire {
+    display: flex;
+    flex-direction: column;
+    color: orangered;
+    width: 70%;
+  }
+  .hire h2 {
+    color: orangered;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .hire-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: orangered;
+  }
+  .input-1 {
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  .input-2 {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  .input-3 {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  .input-4 {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  .foot {
+    position: relative;
+    color: white;
+    background-color: orangered;
+    font-family: emirates;
+  }
+  .des {
+    margin-top: -10px;
+  }
+  #nav-bar {
+    transition: background-color 0.8s;
+  }
+}
