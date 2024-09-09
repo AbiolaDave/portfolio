@@ -17,6 +17,13 @@
   border-radius: 50%;
   opacity: 1;
 }
+ .dave {
+    margin-left: -80px !important;
+  }
+  .dav {
+    margin-left: -30px;
+    margin-top: 10px;
+  }
 @font-face {
   font-family: emirates;
   src: url(./assets/Emirates-Bold.ttf);
@@ -407,6 +414,13 @@
 }
 
 @media only screen and (max-width: 999px) {
+   .dave {
+    margin-left: -80px !important;
+  }
+  .dav {
+    margin-left: -30px;
+    margin-top: 10px;
+  }
   .about {
     width: 900px;
     height: 850px;
