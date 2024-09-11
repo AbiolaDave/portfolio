@@ -243,6 +243,9 @@
   margin-left: 10px;
   margin-top: -8px;
 }
+.author{
+  margin-top: -10px !important;
+}
 .interest {
   height: 700px;
   background-color: lightgray;
@@ -534,7 +537,7 @@
     position: relative;
     top: 50px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 450px);
+    grid-template-rows: repeat(2, 470px);
     font-family: emirates;
   }
   .box0 {
@@ -563,7 +566,7 @@
     max-width: 400px;
   }
   .lay {
-    height: 30% !important;
+    height: 29% !important;
   }
   .tag {
     position: absolute;
@@ -588,9 +591,6 @@
     object-fit: fill;
     margin-left: 20px;
     margin-top: -8px;
-  }
-  .author {
-    height: 20%;
   }
   .author p {
     position: relative;
@@ -835,7 +835,7 @@
     position: relative;
     top: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1, 470px);
+    grid-template-rows: repeat(3, 480px);
     font-family: emirates;
   }
   .box0 {
@@ -878,6 +878,9 @@
     align-items: center;
     margin-left: 75px;
     margin-top: -15px;
+  }
+  .lay{
+    height: 29% !important;
   }
   .author img {
     position: relative;
