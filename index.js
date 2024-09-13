@@ -99,7 +99,7 @@ const sendMail = async () => {
   let message = document.getElementById("message").value;
 
   console.log(name, subject, email, message);
-  const url = "http://localhost:5002/user/sendemail";
+  const url = "https://portfolio-backend-hbyv.onrender.com/user/sendemail";
   const data = { name, subject, email, message };
   fetch(url, {
     method: "POST",
